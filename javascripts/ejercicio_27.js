@@ -16,8 +16,8 @@ function ejecutar_27(){
         } else {
          limite = 50
         }
-        let total = (limite/100)*clientes[i][2] //proceso para el valor del incremento
-        let nuevo_credito = total + clientes[i][2] //formula para generar el nuevo credito
+        let total = (limite/100)*credito //proceso para el valor del incremento
+        let nuevo_credito = total + credito //formula para generar el nuevo credito
         //SALIDA : Se muestra los datos del cliente 
         console.log(`Cliente ${i+1} :`)
         console.log(`El tipo de tarjeta es : ${tipoTarjeta}`)
