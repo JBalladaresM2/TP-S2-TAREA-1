@@ -1,7 +1,7 @@
 function ejecutar_27(){
     debugger
     //ENTRADA
-    const clientes = [[2,1000][3,1500][1,2000][4,1000]] //arreglo con los datos del cliente
+    const clientes = [[2,1000] , [3,1500] , [1,2000] , [4,1000]] //arreglo con los datos del cliente
     //PROCESO
     for (let i=0 ; i > clientes.length ; i++) { //Ciclo con for 
         let tipoTarjeta=clientes[i][0] //se extrae el valor del tipo de la tarjeta
