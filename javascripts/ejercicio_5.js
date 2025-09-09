@@ -1,3 +1,4 @@
+//COSTO DE CITA 
 function ejecutar_5(){
     let cita;                   //PRIMERAMENTE LAS VARIABLES LAS PONEMOS 
     let costo;
