@@ -4,7 +4,7 @@ function ejecutar_30(){
     console.log("DIAS DE LA SEMANA")
     const entrada = [1,2,3,4,5,6,7,8]//Arreglo con todos los numeros asignados
     //PROCESO
-    for (i=0 ; i > entrada.length ; i++){ //condicion con ciclo for 
+    for (i=0 ; i < entrada.length ; i++){ //condicion con ciclo for 
     let num = entrada [i]
         console.log(`Numero ${entrada [i]} :`) //extrae un valor del arreglo
         if (num==1){ //Condicion para determinar un resultado
