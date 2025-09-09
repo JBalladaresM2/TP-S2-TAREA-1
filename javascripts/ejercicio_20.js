@@ -26,4 +26,4 @@ function ejecutar_20(){
         }
         c++//se incrementa el contador y vuelve al ciclo
     }
-} //SALIDA : Mostrar que dia de la semana es 
+} //SALIDA : Mostrar que dia de la semana es
