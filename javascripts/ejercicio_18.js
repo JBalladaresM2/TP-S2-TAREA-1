@@ -12,7 +12,7 @@ function ejecutar_18(){
         if (peso<=5){
             total=valor*peso                                                                              //CALCULAMOS Y PRESENTAMOS
             console.log(`Su paquete se dirige a ${destino} con un peso de ${peso}kg ,  el precio por kg es de ${valor}$ y el costo es de ${total} dolares `)
-        } else if (peso>5){
+        } else if (peso>6){
             console.log(`Su paquete excede el peso permitido`)
         }
         c++;
