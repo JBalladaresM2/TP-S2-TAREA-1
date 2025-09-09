@@ -1,3 +1,4 @@
+//COSTO DE CITAS CON ARREGLO
 function ejecutar_25(){
     const citas=[1,5,9];                //EN ESTE CASO ES UN ARREGLO LO PONEMOS COMO CONSTANTE PORQUE NO CAMBIA EL VALOR
     let costo=0;
