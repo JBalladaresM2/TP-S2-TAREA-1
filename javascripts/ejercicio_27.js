@@ -6,11 +6,11 @@ function ejecutar_27(){
     for (let i=0 ; i < clientes.length ; i++) { //Ciclo con for 
         let tipoTarjeta=clientes[i][0] //se extrae el valor del tipo de la tarjeta
         let credito=clientes [i][1] //se extrae el valor del credito
-        if (tipoTarjeta=1){ //condicion para asignar el limite de credito
+        if (tipoTarjeta===1){ //condicion para asignar el limite de credito
             limite = 25
-        } else if (tipoTarjeta=2){
+        } else if (tipoTarjeta===2){
             limite = 35
-        } else if (tipoTarjeta=3){
+        } else if (tipoTarjeta===3){
             limite = 40
         } else {
             limite = 50
