@@ -19,10 +19,9 @@ function ejecutar_24(){
         } else {
             minimo = personas
         }
-    }
-
-    costo_total = viajes[i][1] * tarifa * minimo //formula para general el costo total
+     costo_total = viajes[i][1] * tarifa * minimo //formula para general el costo total
     costo_persona = costo_total / personas //Formula para mostrar el costo por persona
+    }
     //SALIDA : se muestra los datos del viaje
     console.log(`Total de Viajes : ${i + 1} , Viaje tipo ${viajes[i][0]}: Costo total $${costo_total} - Costo por persona $${costo_persona.toFixed(2)}`)
 }
