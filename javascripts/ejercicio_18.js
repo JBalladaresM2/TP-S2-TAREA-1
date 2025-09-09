@@ -7,7 +7,7 @@ function ejecutar_18(){
     destino=prompt("Ingrese el destino del paquete (Nacional o internacional)")     //EL VALOR YA ESTA PUESTO Y SOLAMENTE ABRIA QUE INGRESAR EL PESO 
     let n=parseInt(prompt("Ingrese las veces que va a realizar un pedido"))
     let c=0                                                                       //CREAMOS UN WHILE Y HACEMOS EL BUCLE 
-    while(c<n){
+    while(c<=n){
         peso=parseInt(prompt("Ingrese el peso del paquete en kg"))
         if (peso<5){
             total=valor*peso                                                                              //CALCULAMOS Y PRESENTAMOS
