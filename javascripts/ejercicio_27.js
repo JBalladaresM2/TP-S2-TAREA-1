@@ -6,14 +6,15 @@ function ejecutar_27(){
     for (let i=0 ; i < clientes.length ; i++) { //Ciclo con for 
         let tipoTarjeta=clientes[i][0] //se extrae el valor del tipo de la tarjeta
         let credito=clientes [i][1] //se extrae el valor del credito
+        let limite=0 //se lee la variable limite
         if (tipoTarjeta===1){ //condicion para asignar el limite de credito
-          let  limite = 25
+          limite = 25
         } else if (tipoTarjeta===2){
-           let limite = 35
+          limite = 35
         } else if (tipoTarjeta===3){
-           let limite = 40
+          limite = 40
         } else {
-           let limite = 50
+         limite = 50
         }
         let total = (limite/100)*clientes[i][2] //proceso para el valor del incremento
         let nuevo_credito = total + clientes[i][2] //formula para generar el nuevo credito
