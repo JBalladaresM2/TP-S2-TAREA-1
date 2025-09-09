@@ -1,3 +1,4 @@
+//COSTO DE LAPICES CON ARREGLO
 function ejecutar_22(){
   debugger
     const n=[1200,800] //TIENE UN ARREGLO GUARDADO

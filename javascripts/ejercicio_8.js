@@ -1,3 +1,4 @@
+//COSTO DE PAQUETE
 function ejecutar_8(){
     debugger;
     let peso;                           //INGRESAMOS LAS VARIABLES Y ABRIMOS UN PROMPT DE DONDE SE ENVIARAN LOS PAQUETES

@@ -1,3 +1,4 @@
+//CITAS CON WHILE
 function ejecutar_15(){
     let cita;                             //PONEMOS LAS VARIABLES QUE VAYAMOS A USAR
     let costo;

@@ -1,3 +1,4 @@
+//COSTO DE LAPICES
 function ejecutar_2() {
     let cantidad;
     let costo;        //DEFINIMOS VARIABLES QUE VAYAMOS A OCUPAR

@@ -1,3 +1,4 @@
+//COSTO DE PAQUETE CON WHILE
 function ejecutar_18(){
     debugger;
     let peso;                           //INGRESAMOS LAS VARIABLES Y ABRIMOS UN PROMPT DE DONDE SE ENVIARAN LOS PAQUETES

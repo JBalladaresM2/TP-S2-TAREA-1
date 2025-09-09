@@ -1,3 +1,4 @@
+//COSTO DE PAQUETE CON ARREGLO
 function ejecutar_28(){
     debugger;
     const paquetes=[[4 ,"Europa"] ,[6 , " asia" ]]      //TENEMOS UN ARREGLO Y PARA LLAMAR EL ARRREGLO ES
