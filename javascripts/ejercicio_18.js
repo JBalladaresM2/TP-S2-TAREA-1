@@ -9,7 +9,7 @@ function ejecutar_18(){
     let c=1                                                                         //CREAMOS UN WHILE Y HACEMOS EL BUCLE 
     while(c<n){
         peso=parseInt(prompt("Ingrese el peso del paquete en kg"))
-        if (peso<=5){
+        if (peso<5){
             total=valor*peso                                                                              //CALCULAMOS Y PRESENTAMOS
             console.log(`Su paquete se dirige a ${destino} con un peso de ${peso}kg ,  el precio por kg es de ${valor}$ y el costo es de ${total} dolares `)
         } else if (peso>5){
