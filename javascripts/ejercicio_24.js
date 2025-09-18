@@ -1,6 +1,6 @@
 function ejecutar_24(){
     //ENTRADA
-    let tarifa, costo_total, costo_persona , minimo , personas //se generan las variables 
+    let tarifa, costo_total, costo_persona ,minimo //se generan las variables 
     const viajes = [["A", 300, 15], ["B", 60, 30], ["C", 150, 19]] //Arreglo que contiene los viajes
     //PROCESO
     for (let i = 0; i < viajes.length; i++) { //ciclo con for para el arreglo

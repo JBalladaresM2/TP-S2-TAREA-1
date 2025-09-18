@@ -4,7 +4,7 @@ function ejecutar_23() {
         // Se inicializa un arreglo vacío para guardar los precios.
     let precio_trajes = []
     // Se declaran las variables que se usarán más adelante.
-    let traje, descuento, precio_descuento
+    let precio_traje, traje, descuento, precio_descuento
 
     // --- Entrada ---
     // Pide la cantidad de trajes a procesar.
